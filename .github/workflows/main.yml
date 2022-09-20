@@ -8,4 +8,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: echo "Batman"
+  Druhy_job_ZS:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: echo "Eddie, Iron Maiden"
     
