@@ -16,4 +16,4 @@ jobs:
           pip install robot framework-requests
       - name: Start Test
         run: |
-          python -m robot -i api test/RobotFramework/tc robot
+          python -m robot -i api test/RobotFramework/tc.robot
